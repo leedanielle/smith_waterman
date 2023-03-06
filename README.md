@@ -31,9 +31,9 @@ TFKE(SSLPSSQPEDSKKTKTTSSNEEEIFTLQVRGKKRFEMLKMINDSLELKDLVPA-ADQDKYRQKLHSKS)TS
 
 # Installation
 ```
-$ pip install git+git://github.com/leedanielle/smith_waterman.git
+pip install git+git://github.com/leedanielle/smith_waterman.git
 ```
 or
 ```
-$ install_github("leedanielle/smith_waterman")
+install_github("leedanielle/smith_waterman")
 ```
