@@ -15,7 +15,7 @@ $ python smith_waterman.py -i <input file> -s <score file> [-o <open gap penalty
 # Example
 Using the input and score files in this repo,
 ```
-python hw1.py -i input.txt -s blosum62.txt
+python smith_waterman.py -i input.txt -s blosum62.txt
 ```
 Running the above line should yield a file called out.txt, the last few lines of which should look like this:
 ```
