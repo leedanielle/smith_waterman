@@ -31,9 +31,6 @@ TFKE(SSLPSSQPEDSKKTKTTSSNEEEIFTLQVRGKKRFEMLKMINDSLELKDLVPA-ADQDKYRQKLHSKS)TS
 
 # Installation
 ```
-pip install git+git://github.com/leedanielle/smith_waterman.git
+git clone https://github.com/leedanielle/smith_waterman
 ```
-or
-```
-install_github("leedanielle/smith_waterman")
-```
+
