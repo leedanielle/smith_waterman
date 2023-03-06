@@ -5,7 +5,7 @@ __copyright__ = "Copyright March 2023"
 __license__ = "GPL"
 __version__ = "1.0.0"
 
-### Usage: python smith_waterman.py -i <input file> -s <score file>
+### Usage: python smith_waterman.py -i <input file> -s <score file> [-o <open gap penalty>] [-e <ext gap penalty]
 ### Example: python smith_waterman.py -i input.txt -s blosum62.txt
 ### Note: Smith-Waterman Algorithm
 
