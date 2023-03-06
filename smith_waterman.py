@@ -5,8 +5,8 @@ __copyright__ = "Copyright March 2023"
 __license__ = "GPL"
 __version__ = "1.0.0"
 
-### Usage: python DL_hw1.py -i <input file> -s <score file>
-### Example: python DL_hw1.py -i input.txt -s blosum62.txt
+### Usage: python smith_waterman.py -i <input file> -s <score file> [-o open_gap_penalty] [-e ext_gap_penalty]
+### Example: python smith_waterman.py -i input.txt -s blosum62.txt -o -2 -e -1
 ### Note: Smith-Waterman Algorithm
 
 import argparse
@@ -184,7 +184,7 @@ def runSW(inputFile, scoreFile, openGap, extGap):
         dtype='int', skiprows=1, usecols=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23)))
     
     # Open outgoing file and write in the matrix
-    with open('sw_aligned.txt', 'w') as f:
+    with open('out.txt', 'w') as f:
         with redirect_stdout(f):
             matrix(seqA, seqB, similarity, openGap, extGap)
     f.close()
